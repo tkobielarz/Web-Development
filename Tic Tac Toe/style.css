@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.game {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background-color: #aaa;
+  border: 1px solid black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cells {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  background-color: #bbb;
+  margin: 5% auto 0;
+}
+
+.cells div {
+  position: relative;
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+  border: 2px solid black;
+  background-color: white;
+  font-size: 70px;
+  text-align: center;
+  line-height: 140px;
+  cursor: pointer;
+}
+
+.gameStatus {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.restart {
+  padding: 5px;
+  cursor: pointer;
+}
