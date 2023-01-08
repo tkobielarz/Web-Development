@@ -1,0 +1,3 @@
+- niezalogowany użytkownik powinien mieć możliwość przeglądania zdjęć oraz zarejestrowania się lub zalogowania
+- zalogowany użytkownik powinien mieć możliwość dodawania zdjęć, edytowania lub usuwania swoich zdjęć, oraz komentowania wszystkich zdjęć
+- administrator powinien mieć wszystkie funckje takie jak zalogowany użytkownik, dodając do tego usuwanie wszystkich zdjęć

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "swagger-router": "^0.7.4"
+  }
+}
